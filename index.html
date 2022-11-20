@@ -9,6 +9,21 @@
 <body>
     <h3>Hallo Welt...</h3>
     <h4>Heute ist ein schöner Tag</h4>
-    <p>Liebe Saskia, hier zeige ich Dir mal meine Development Pipeline :)</p>
+    <h2>CiCd Test</h4>
+    <h1 id="farbdemo" onclick="farbtest()">klick mich um meine Farbe zu ändern</h1>
+    <script>
+        function farbtest(){
+            document.getElementById("farbdemo").style.color = "red";
+        }
+    </script>
+
+    <h3 id="demo" onclick="myFunction()">Click me to change my color.</h3>
+
+    <script>
+    function myFunction() {
+    document.getElementById("demo").style.color = "red";
+    }
+</script>
+
 </body>
 </html>
